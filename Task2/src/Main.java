@@ -4,6 +4,7 @@ public class Main {
     public static final String CORRECT_CHARS = " -ЁЙЦУКЕНГШЩЗХЪЭЖДЛОРПАВЫФЯЧСМИТЬБЮёйцукенгшщзхъэждлорпавыфячсмитьбю";
     public static void main(String[] args) {
         //todo код писать тут. По желанию(рекомендуется) вынести код в методы.
+        System.out.println("Введите ФИО");
         String input = new Scanner(System.in).nextLine().trim();
         boolean isValid = true;
         int spaceCount = 0;

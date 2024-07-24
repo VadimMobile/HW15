@@ -7,7 +7,6 @@ public class Main {
         //todo код писать тут
        String alphabet = "ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ";
         for (int i = 0; i < alphabet.length(); i++) {
-            alphabet.codePointBefore(1);
             System.out.println(alphabet.charAt(i) + "-" +  alphabet.codePointBefore(i+1));
         }
     }
